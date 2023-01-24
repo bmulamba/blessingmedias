@@ -22,7 +22,7 @@
  */
 
  const navbar = document.querySelector("[data-navbar]");
- const navbarLinks = document.querySelector("[data-nav-link]");
+ const navbarLinks = document.querySelectorAll("[data-nav-link]");
  const navToggler = document.querySelector("[data-nav-toggler]");
 
  const toggleNavbar = function () {
