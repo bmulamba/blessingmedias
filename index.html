@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo-1.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/9120d498ed.js" crossorigin="anonymous"></script>
     <title>BlessingMedia</title>
 </head>
 <body>
     <!-- HEADER -->
 
-    <header class="header" data-header>
+    <header class="header " data-header>
         <div class="container">
-            <a href="#" class="logo">BlessingMedia</a>
-            <nav class="navbar container" data-navbar>
+            <a href="#" class="logo">
+                <img src="./images/logo-2.png" class="logo-img" alt="log">
+            </a>
+            <nav class="navbar container " data-navbar>
                 <ul class="navbar-list">
                     <li>
                         <a href="#home" class="navbar-link" data-nav-link>Home</a>
@@ -35,9 +39,21 @@
                     </li>
                 </ul>
             </nav>
-        </div>
 
+            <button class="nav-toggle-btn " aria-label="Toggle menu" data-nav-toggler >
+                <span name="menu-outline" class="open"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                <span name="menu-outline" class="close"><i class="fa fa-times" aria-hidden="true"></i></span>
+            </button>
+        </div>
     </header>
     
+
+
+
+
+
+
+
+    <script src="./js/javascript.js" defer></script>
 </body>
 </html>
