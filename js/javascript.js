@@ -38,3 +38,14 @@
  }
 
  addEventOnElen(navbarLinks, "click", closeNavbar);
+
+
+ const header = document.querySelector("[data-header]");
+
+ window.addEventListener("scroll", () => {
+    if (window.screenY > 100) {
+        header.classList.add("active")
+    } else {
+        header.classList.remove("active");
+    }
+ });
