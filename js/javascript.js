@@ -43,8 +43,8 @@
  const header = document.querySelector("[data-header]");
  const backTopBtn = document.querySelector("[data-back-top-btn]");
 
- window.addEventListener("scroll", () => {
-    if (window.screenY > 100) {
+ window.addEventListener("scroll", function () {
+    if (window.scrollY > 100) {
         header.classList.add("active");
         backTopBtn.classList.add("active");
     } else {
