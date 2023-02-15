@@ -156,7 +156,7 @@ ul { list-style-type: none;}
 }
 
 .container {
-    width: 90%;
+    width: 100%;
 }
 
 .container-fluid {
@@ -250,6 +250,10 @@ ul { list-style-type: none;}
 
 .w50 {
     width: 50%;
+}
+
+.logo {
+    width: 110px;
 }
 
 
@@ -490,4 +494,9 @@ ul { list-style-type: none;}
     background-color: white;
     padding: 2em 2.5em;
     text-align: center;
+}
+
+#site-main .card-area .grid {
+    column-gap: 4em;
+    row-gap: 2em;
 }
