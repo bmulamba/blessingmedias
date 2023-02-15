@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,331 +13,208 @@
     <script src="https://kit.fontawesome.com/9120d498ed.js" crossorigin="anonymous"></script>
     <title>BlessingMedia</title>
 </head>
-<body id="top">
+
+<body>
     <!-- HEADER -->
 
-    <header class="header " data-header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="./images/logo-2.png" class="logo-img" alt="log">
-            </a>
-            <nav class="navbar container " data-navbar>
-                <ul class="navbar-list">
+    <header class="container-fluid" >
+        <div class="nav flex font-poppins" id="nav">
+            <div class="nav-brand">
+                <a href="#" class="text-dark">Digital</a>
+            </div>
+            <div class="toggle-btn">
+                <button class="btn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="collapse flex-grow">
+                <ul class="flex">
                     <li>
-                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                        <a href="#" class="link">Home</a>
                     </li>
                     <li>
-                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                        <a href="#" class="link">About</a>
                     </li>
                     <li>
-                        <a href="#services" class="navbar-link" data-nav-link>Services</a>
+                        <a href="#" class="link">Services</a>
                     </li>
                     <li>
-                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
-                    </li>
-                    <li>
-                        <a href="#" class="btn btn-primary">Get Started</a>
+                        <a href="#" class="link">Work</a>
                     </li>
                 </ul>
-            </nav>
+            </div>
 
-            <button class="nav-toggle-btn " aria-label="Toggle menu" data-nav-toggler >
-                <span name="menu-outline" class="open"><i class="fa fa-bars" aria-hidden="true"></i></span>
-                <span name="menu-outline" class="close"><i class="fa fa-times" aria-hidden="true"></i></span>
-            </button>
+            <div class="flex-initial">
+                <ul class="flex">
+                    <button class="btn btn-primary bg-gradient text-white btn-shadow">Start Project</button>
+                </ul>
+            </div>
         </div>
+        
     </header>
 
-    <main>
-        <article>
+        <!-- END HEADER -->
+    <main id="site-main">
+        <!-- banner area  -->
+        <section class="banner-area font-poppins">
+            <div class="container mx-auto banner-title">
+                <div class="title">
+                    <span class="d-inline btn btn-primary bg-gradient-peach text-red">Digital experience</span>
+                    <div class="py-2 branding text-dark text-lg sm-text-xl font-bold">
+                        <span class="d-block">Branding, Digital</span>
+                        <span class="d-block">Marketing and </span>
+                        <span class="d-block">business solutions</span>
+                    </div>
+                    <div class="py-5">
+                        <p class="text-gray">We merge imagination and technology to help thousands of</p>
+                        <p class="text-gray">brands grow in an age of digital transformation.</p>
+                    </div>
 
-            <!-- HERO -->
-
-
-            <section class="section hero" id="home" aria-label="hero">
-                <div class="container">
-                    <div class="hero-content">
-                        <p class="hero-subtitle">
-                            Blessing Media
-                        </p>
-                        <h1 class="h1 hero-title"> We are avaible for marketing</h1>
-                        <p class="hero-text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ad odit, facilis pariatur eos aut iusto explicabo culpa quam, modi deleniti minima ducimus numquam nemo nam tempora laboriosam inventore error?
-                        </p>
-                        <a href="#" class="btn btn-primary">Get Started</a>
+                    <div class="py-5">
+                        <a href="#" class="btn btn-primary bg-gradient text-white btn-shadow">Work Together</a>
                     </div>
                 </div>
+            </div>
+        </section>
+         <!-- banner area  -->
 
-                <figure class="hero-banner">
-                    <img src="./images/banner.png" max-width="715" height="670" alt="banner" class="w-100">
-                </figure>
-            </section>
+          <!-- Agency area  -->
+          <section class="agency-area">
+            <div class="container mx-auto text-center font-poppins">
+                <span class="text-red">Join our Agency</span>
+                <div class="area-title">
+                    <h1 class="text-lg text-dark">
+                        We design and build beautiful digital <br> products that make a difference
+                    </h1>
+                </div>
 
-            <!-- SERVICE -->
-
-            <section class="section service" id="service" aria-label="service">
-                <div class="container">
-                    <h2 class="h2 section-title">what we do</h2>
-
-                    <p class="section-text">
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                    <ul class="grid-list">
-                        <li>
-                            <div class="service-card">
-                                <div class="card-icon" style="background-color: #13c4a1">
-                                    <span>DeskTopp</span>
-                                </div>
-                            
-
-                            <h3 class="h3">
-                                <a href="#" class="card-title">Market Search</a>
-                            </h3>
-
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi ex distinctio quaerat veritatis porro delectus. Et aliquid voluptates illo necessitatibus blanditiis asperiores? Quasi blanditiis cumque tempora numquam. Eum, eos?
+                <div class="grid cols-1 lg-cols-3 py-10">
+                    <div class="grid-item px-5 ">
+                        <div class="text-center text-2xl text-red">
+                            <i class="fa fa-code-fork" aria-hidden="true"></i>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="text-md py-2 text-bold">Graphic Design</h4>
+                            <p class="text-gray">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium saepe explicabo dolores, tempore mollitia iusto quo illo vero odio expedita est optio, officiis corporis? Expedita a qui dignissimos id magnam?
                             </p>
                         </div>
-                        </li>
-
-                        <li>
-                            <div class="service-card">
-                                <div class="card-icon" style="background-color: #101fc4">
-                                    <span>Phone</span>
-                                </div>
-                           
-
-                            <h3 class="h3">
-                                <a href="#" class="card-title">SEO Search</a>
-                            </h3>
-
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi ex distinctio quaerat veritatis porro delectus. Et aliquid voluptates illo necessitatibus blanditiis asperiores? Quasi blanditiis cumque tempora numquam. Eum, eos?
-                            </p> </div>
-                        </li>
-
-                        <li>
-                            <div class="service-card">
-                                <div class="card-icon" style="background-color: #3add1a">
-                                    <span>Bulbd</span>
-                                </div>
-                           
-
-                            <h3 class="h3">
-                                <a href="#" class="card-title">IT loading</a>
-                            </h3>
-
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi ex distinctio quaerat veritatis porro delectus. Et aliquid voluptates illo necessitatibus blanditiis asperiores? Quasi blanditiis cumque tempora numquam. Eum, eos?
+                    </div>
+                    
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="text-md py-2">Digital Marketing</h4>
+                            <p class="text-gray">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium saepe explicabo dolores, tempore mollitia iusto quo illo vero odio expedita est optio, officiis corporis? Expedita a qui dignissimos id magnam?
                             </p>
                         </div>
-                        </li>
-                    </ul>
+                    </div>
 
+                    <div class="grid-item px-5">
+                        <div class="text-center text-2xl text-red">
+                            <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="text-md py-2">IT Consulting</h4>
+                            <p class="text-gray">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium saepe explicabo dolores, tempore mollitia iusto quo illo vero odio expedita est optio, officiis corporis? Expedita a qui dignissimos id magnam?
+                            </p>
+                        </div>
+                    </div>
+                    
                 </div>
+            </div>
+          </section>
 
-            </section>
+          <!-- Agency area  -->
 
+        <!-- Agency area  -->
 
-
-            <section class="customers section">
-                <div class="number-customers container">
-                    <div>
-                        <span>Projects</span>
-                        <span>1828</span>
-                    </div>
-                    <div>
-                        <span>Customers</span>
-                        <span>32</span>
-                    </div>
-                    <div>
-                        <span>Towns</span>
-                        <span>09</span>
-                    </div>
-             
+        <div class="container mx-auto life-area">
+            <div class="grid cols-1 lg-cols-2 text-center md-text-left">
+                <div class="grid-images">
+                    <div class="item-one"></div>
+                    <div class="item-two"></div>
+                    <div class="item-three"></div>
                 </div>
-
-            </section>
-
-
-            <section class="section about" id="about" aria-label="about">
-                <div class="container">
-                    <div class="about-banner-img-holder"  >
-                        <!-- <img src="./images/banner.jpg" width="715" height="670" loading="lazy" alt="about banner" class="img-cover"> -->
-                        <button class="play-btn" aria-label="play video">
-                            <span name="play" aria-hidden="true" ></span>
-                        </button>
+                <div class="py-10">
+                    <span class="d-inline btn btn-primary bg-gradient-peach text-res"> Digital Experience</span>
+                    <div class="font-poppins">
+                        <h1 class="text-lg text-dark py-5">Connect people in <br> digital life</h1>
+                        <p class="py-5 text-gray"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam distinctio sit harum necessitatibus nisi iusto voluptatem laborum tempore consectetur iste fuga recusandae architecto a pariatur, quasi voluptatum nulla beatae facere? </p>
+                        <p class="py-5 text-gray"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam quisquam praesentium rem harum accusamus quasi cupiditate rerum minus ea officia fuga aspernatur laudantium alias voluptatum tempore ut beatae maxime, aperiam unde modi! Quasi quod consequuntur minima. Hic, quam quod ea cum beatae cumque, iusto rerum, quo assumenda ipsam necessitatibus?</p>
+                        <div class="py-5">
+                            <a href="#" class="btn btn-primary bg-gradient btn-shadow text-white">Learn More</a>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
 
-                    <div class="about-content">
-                        <h2 class="h2 section-title">About us</h2>
-                        <p class="section-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ratione! Facere, voluptatem alias tempora nulla dolorum aperiam, nihil eos reprehenderit a et consectetur quisquam quae delectus odit totam enim cupiditate.
-                        </p>
+        <!-- End About Agency  -->
 
-                        <h3 class="h3"> who are we</h3>
+        <!-- Counting area  -->
 
-                        <p class="section-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias autem, facilis deleniti nostrum deserunt esse quasi corrupti ipsa qui quidem vero, natus, cupiditate voluptate laborum. Necessitatibus quisquam nemo sapiente facilis?
-                        </p>
+        <section class="container mx-auto counting-area py-5">
+            <div class="grid cols-1 lg-cols-2">
+                <div class="grid-one text-center md-text-left">
+                    <span class="d-inline btn btn-primary bg-gradient-peach text-red">Counter</span>
+                    <div class="font-poppins">
+                        <h1 class="text-lg text-dark py-5">
+                            The hundred of <br> 
+                            completed works <br>
+                            still counting
+                        </h1>
 
-                        <h3 class="h3">
-                            Our services
-                        </h3>
-                        <ul class="about-list">
-                        
-                            <li class="about-item">
-                                <span><i class="fa fa-check" aria-hidden="true"></i></span>
-
-                                <p class="secion-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa mollitia consectetur facilis vitae sequi aut debitis saepe. Eos itaque eum fuga provident nesciunt repudiandae blanditiis quae ratione ab id!
-                                </p>
-                            </li>
-
-                            <li class="about-item">
-                                <span><i class="fa fa-check" aria-hidden="true"></i></span>
-
-                                <p class="secion-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa mollitia consectetur facilis vitae sequi aut debitis saepe. Eos itaque eum fuga provident nesciunt repudiandae blanditiis quae ratione ab id!
-                                </p>
-                            </li>
-
-                            <li class="about-item">
-                                <span><i class="fa fa-check" aria-hidden="true"></i></span>
-
-                                <p class="secion-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa mollitia consectetur facilis vitae sequi aut debitis saepe. Eos itaque eum fuga provident nesciunt repudiandae blanditiis quae ratione ab id!
-                                </p>
-                            </li>
-                        </ul>
-
-                        <h3 class="h3">
-                            Our Mission
-                        </h3>
-                        <p class="section-text">
-                            a new outlet store, where clothes are typically sold at a 20 per cent to 30 per cent discount. Collins English Dictionary. Copyright © HarperCollins Publishers.
+                        <p class="text-gray max-auto md-mx-initial">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum veritatis tempora necessitatibus praesentium odio ipsa animi autem beatae dolore, nesciunt doloremque aperiam tenetur id quas, laudantium quod architecto assumenda eius?
                         </p>
                     </div>
                 </div>
-            </section>
-
-            <section class="section cta" aria-label="cta" style="background-color: #c88802;">
-                <div class="container">
-                    <p class="cta-subtitle">
-                        <h2 class="h2 section-title">
-                            <a href="#" class="btn btn-secondary">Get Started</a>
-                        </h2>
-                    </p>
+                <div class="grid-two">
+                    <div class="count-box">
+                        <div class="grid lg-cols-2 btn-shadow font-poppins">
+                            <div class="item1 text-center">
+                                <h1 class="text-dark text-xl">29+</h1>
+                                <span class="text-gray">Countries</span>
+                            </div>
+                            <div class="item2 text-center">
+                                <h1 class="text-dark text-xl">22%</h1>
+                                <span class="text-gray">Positive Feedback</span>
+                            </div>
+                            <div class="item3 text-center">
+                                <h1 class="text-dark text-xl">19</h1>
+                                <span class="text-gray">Projects</span>
+                            </div>
+                            <div class="item1 text-center">
+                                <h1 class="text-dark text-xl">2989+</h1>
+                                <span class="text-gray">Usual Users</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="sectlion contact" id="contact" aria-label="contact">
-                <div class="container">
-                    <h2 class="h2 section-title">Let's Contact with Us</h2>
+        <!-- Counting area  -->
 
-                    <p class="section-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit assumenda nesciunt deleniti eaque nihil aut dolorem accusamus, deserunt doloribus ipsa necessitatibus natus magnam ut. Vitae laboriosam assumenda pariatur expedita sapiente!
-                    </p>
-
-                    <form action="" class="contact-form">
-
-                        <div class="input-wrapper">
-                            <input type="text" name="name" placeholder="Your name *" aria-label="name" required class="input-field" >
-
-                            <input type="email" name="email_address" aria-label="email" placeholder="Email address" class="input-field" >
-                        </div>
-
-                        <div class="input-wrapper">
-                            <input type="text" name="subject" placeholder="Subject" aria-label="subject" class="input-field" >
-                            
-                            <input type="number" name="phone" aria-label="phone" placeholder="Phone" class="input-field" >
-                        </div>
-
-                        <textarea name="message" aria-label="message" class="input-field" placeholder="Your message *" ></textarea>
-                        
-                        <div class="checkbox-wrapper">
-                            <input type="checkbox" name="terms_and_policy" class="checkbox" id="terms" required >
-
-                            <label for="terms" class="label">
-                               <a href="#" class="label-link">Terms of Services</a> and <a href="#" class="label-link">Privary Policy</a>
-                            </label>
-                        </div>
-                        
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-
-                    <ul class="contact-list">
-                        <li class="contact-item">
-                            <div class="contact-card">
-                                <div class="card-icon">
-                                    <span name="name" aria-hidden="true"></span>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 card-title">Mail Here</h3>
-
-                                    <a href="#" class="card-link">admin@blessingmedia.co.za</a>
-                                    <a href="#" class="card-link">support@blessingmedia.co.za</a>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="contact-item">
-                            <div class="contact-card">
-                                <div class="card-icon">
-                                    <span name="map-outline" aria-hidden="true"></span>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 card-title">Visit Here</h3>
-
-                                    <address class="card-address">
-                                        22 Moero Street,
-                                        Lubumbashi,
-                                        RD Congo
-                                    </address>
-                                    
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="contact-item">
-                            <div class="contact-card">
-                                <div class="card-icon">
-                                    <span name="headset-outline" aria-hidden="true"></span>
-                                </div>
-
-                                <div class="card-content">
-                                    <h3 class="h3 card-title">Call Here</h3>
-
-                                    <a href="tel:00243999377263" class="card-address">
-                                        00243999377263
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </article>
     </main>
 
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <p class="copyright">
-                &copy; 2023 All Rights Reserved by <a href="http://www.abstralgo.com" >Abstralgo</a>
+                &copy; 2023 All Rights Reserved by <a href="http://www.abstralgo.com">Abstralgo</a>
             </p>
         </div>
+    </footer> -->
 
-    </footer>
-
-
-    <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
-        hhjkkj
-    </a>
 
     <script src="./js/javascript.js" defer></script>
 </body>
+
 </html>

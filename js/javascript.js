@@ -1,54 +1,13 @@
 
-
 'use strict'
 
-/*
-    * add event on element
-*/
+window.onload = function digital_fn(){
+    let toggle = document.querySelector("#nav .toggle-btn");
+    let collapse = document.querySelector("#nav .collapse");
 
- const addEventOnElen = function (elem, type, callback) {
-    if (elem.length > 1) {
-        for (let i = 0; i < elem.length; i++) {
-            elem[i].addEventListener(type, callback);
-        }
-    } else {
-        elem.addEventListener(type, callback);
-    }
- }
+    toggle.addEventListener('click',function(event){
+        collapse.classList.toggle('active')
+        // console.log(toggle);
 
- /*
- toggle navbar
- 
- */
-
- const navbar = document.querySelector("[data-navbar]");
- const navbarLinks = document.querySelectorAll("[data-nav-link]");
- const navToggler = document.querySelector("[data-nav-toggler]");
-
- const toggleNavbar = function () {
-    navbar.classList.toggle("active");
-    navToggler.classList.toggle("active")
- }
-
- addEventOnElen(navToggler, "click", toggleNavbar);
-
- const closeNavbar = function () {
-    navbar.classList.remove("active");
-    navToggler.classList.remove("active");
- }
-
- addEventOnElen(navbarLinks, "click", closeNavbar);
-
-
- const header = document.querySelector("[data-header]");
- const backTopBtn = document.querySelector("[data-back-top-btn]");
-
- window.addEventListener("scroll", function () {
-    if (window.scrollY > 100) {
-        header.classList.add("active");
-        backTopBtn.classList.add("active");
-    } else {
-        header.classList.remove("active");
-        backTopBtn.classList.remove("active");
-    }
- });
+    })
+}
