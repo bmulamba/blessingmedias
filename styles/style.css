@@ -112,7 +112,7 @@ ul { list-style-type: none;}
 }
 
 .text-xl {
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 .text-2xl {
@@ -248,7 +248,7 @@ ul { list-style-type: none;}
     width: 100%;
 }
 
-.w50 {
+.w-50 {
     width: 50%;
 }
 
@@ -265,7 +265,7 @@ ul { list-style-type: none;}
 /* for large screen sm(640px) */
 @media(min-width: 640px){
     .container {
-      min-width: 640px;
+      max-width: 640px;
     }
 
     .sm-text-xl {
@@ -276,7 +276,7 @@ ul { list-style-type: none;}
 /* for large screen md(786px) */
 @media(min-width: 768px){
     .container {
-      min-width: 768px;
+      max-width: 768px;
     }
 
     #nav .toggle-btn {
@@ -291,13 +291,15 @@ ul { list-style-type: none;}
         margin: initial;
     }
 
-    
+    .md-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 /* for large screen lg(1024px) */
 @media(min-width: 1024px){
     .container {
-        min-width: 1024px;
+        max-width: 1024px;
     }
 
     #nav .toggle-btn {
@@ -327,14 +329,18 @@ ul { list-style-type: none;}
     .lg-cols-3 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+
+    .lg-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
     
 }
 
 
 /* for large screen sm(1260px) */
-@media(min-width:1260px){
+@media(min-width:1280px){
     .container {
-        min-width: 1260px;
+        max-width: 1280px;
     }
 
     #nav {
@@ -514,5 +520,34 @@ ul { list-style-type: none;}
 }
 
 
-
 /* end recent work area  */
+
+/* footer  */
+
+#footer {
+    border-top : 2px solid var(--text-light);
+    margin-top: 8rem;
+}
+
+#footer .grid input.subscribe-text {
+    border: none;
+    background-color: var(--text-light);
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--text-dark2);
+    font-family: var(--font-poppins);
+}
+
+#footer .grid input.subscribe-text:focus {
+    border: none;
+    outline: none;
+}
+
+#footer .grid button.btn-go {
+    background-color: var(--text-light);
+    padding: 0 2em;
+    font-family: var(--font-poppins);
+}
+
+/* end footer  */
+
