@@ -296,8 +296,6 @@ section {
       max-width: 768px;
     }
 
-   
-
     #nav .toggle-btn {
       display: block;
     }
@@ -372,11 +370,7 @@ section {
 
     #nav .flex-initial ul button {
         display: inline-block!important;
-    }
-
-   
-    
-    
+    } 
 }
 
 
