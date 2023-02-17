@@ -16,9 +16,10 @@
 
     --font-poppins : "Poppins", 'sans-serif';
 
-    --bg-gradient: linear-gradient(to right, #cd6b58, #cf206f);
-    --bg-gradient-indigo : linear-gradient(to right, #8e2de2, #4a00e0);
-    --bg-gradient-peach : linear-gradient(to right, #6b777f, #312fb8);
+    --bg-gradient: linear-gradient(to right, #cd6b58, #b8507f);
+    --bg-gradient-indigo : linear-gradient(to right, #8c7c99, #b8a9d6);
+    --bg-gradient-peach : linear-gradient(to right, #9ea6ab, #9d9bbd);
+    --bg-gradient-yellow : linear-gradient(to right, #dfdfdc, #e4efc9);
 
     --bg-cover : url('./../images/bgimg1.png');
     --bg-image1 : url('./../images/img1.png');
@@ -82,7 +83,7 @@ ul { list-style-type: none;}
 }
 
 .bg-gradient-yellow {
-    background: var(--bg-yellow);
+    background: var(--bg-gradient-yellow);
 }
 
 .bg-gradient-purple {
@@ -215,7 +216,7 @@ ul { list-style-type: none;}
     border-radius: 20px;
     font-family: var(--font-poppins);
     font-weight: bold;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgb(71, 71, 233);
 }
 
 .btn-shodow {
@@ -229,6 +230,10 @@ ul { list-style-type: none;}
 .bg-cover {
     background: var(--bg-cover);
     object-fit: fill;
+}
+
+.bg-blue {
+    background-color: #524deb;
 }
 
 .d-inline {
