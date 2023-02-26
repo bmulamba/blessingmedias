@@ -8,7 +8,6 @@ window.onload = function digital_fn(){
     toggle.addEventListener('click',function(event){
         collapse.classList.toggle('active')
         // console.log(toggle);
-
     })
 }
 
