@@ -265,7 +265,8 @@ ul { list-style-type: none;}
 }
 
 section {
-    padding: 3rem 0;
+    padding: 1rem 0;
+    /* max-height: 100vh; */
 }
 
 /* .banner-title {
@@ -438,13 +439,13 @@ section {
 
 #site-main .banner-area .banner-title {
     height: 95vh;
-    padding-top: 16rem;
+    padding-top: 10rem;
 }
 
 #site-main .work-together {
     background-color: #3b30d9;
     color: white;
-    padding: .5rem 1rem;
+    padding: .5rem 2rem;
     border-radius: 5px;
     font-weight: 600;
     cursor: pointer!important;
@@ -455,10 +456,14 @@ section {
 /* end banner  */
 
 #site-main .agency-area {
-    padding: 5em 0;
+    padding: 0 2em 0 0;
 }
 
 /* agency about  */
+
+#about { 
+    margin: 2rem;
+}
 
 #site-main .life-area > .grid {
     column-gap: 10em;
@@ -470,8 +475,8 @@ section {
 
 #site-main .life-area .grid-images {
     display: grid;
-    grid-template-columns: repeat(16, minmax(10, 1fr));;
-    grid-template-rows: repeat(8, minmax(8, minmax(100px, 1fr)));
+    grid-template-columns: repeat(16, minmax(7, 1fr));;
+    grid-template-rows: repeat(8, minmax(8, minmax(70px, 1fr)));
 }
 
 #site-main .life-area .grid-images .item-one {
@@ -481,6 +486,7 @@ section {
     grid-row-start: 2;
     grid-row-end: 5;
     background: var(--bg-image1) no-repeat;
+    max-height: 200px;
     background-size: cover;
     border-radius: 8px;
     filter: blur(.5px);
@@ -492,6 +498,7 @@ section {
     grid-column-end: 16;
     grid-row-start: 1;
     grid-row-end: 4;
+    max-height: 300px;
     background: var(--bg-image2) no-repeat;
     background-size: cover;
     border-radius: 8px;
@@ -503,6 +510,7 @@ section {
     background: var(--bg-image3) no-repeat;
     background-size: cover;
     border-radius: 8px;
+    max-height: 400px;
     height: auto;
     z-index: 99;
 }
